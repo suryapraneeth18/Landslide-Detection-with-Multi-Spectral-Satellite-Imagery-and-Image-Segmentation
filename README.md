@@ -1,0 +1,1 @@
+# Landslide-Detection-with-Multi-Spectral-Satellite-Imagery-and-Image-Segmentation
