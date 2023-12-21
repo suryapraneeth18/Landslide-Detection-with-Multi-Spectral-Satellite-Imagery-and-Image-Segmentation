@@ -5,7 +5,7 @@ UNet:
 - Symmetric encoder-decoder architecture for pixel-wise image segmentation.
 - Utilizes skip connections to capture both local and global context, enhancing segmentation accuracy.
 - Employs a sigmoid activation function in the final layer for pixel-wise probability predictions.
-- Trained using binary cross-entropy loss function designed for pixel-wise binary classification.
+- Trained using binary cross-entropy loss function designed for pixel-wise binary classification.\
 FCN:
 - Specialized deep learning architecture for pixel-wise image segmentation.
 - Lacks fully connected layers, allowing handling of images with varying sizes.
@@ -19,7 +19,7 @@ FCN:
 - UNet:
 Precision: 0.77\
 Recall: 0.68\
-F1 Score: 0.72
+F1 Score: 0.72\
 - FCN:
 Precision: 0.77\
 Recall: 0.64\
@@ -34,6 +34,6 @@ F1 Score: 0.72
 Precision: 0.73\
 Recall: 0.64\
 F1 Score: 0.68
-## Predictions
+## Predictions\
 ![image](https://github.com/suryapraneeth18/Landslide-Detection-with-Multi-Spectral-Satellite-Imagery-and-Image-Segmentation/assets/75241973/c3989d46-d2c3-412c-8c0d-0c87caa36c39)
 Visualization of input bands, ground truth, and predictions: (a) RGB, (b) NDVI, (c) Slope, (d) DEM, (e) Ground Truth, (f) UNet Prediction, (g) Customized FCN Prediction.
